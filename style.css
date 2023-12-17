@@ -1,0 +1,9 @@
+:root{
+    --app-mezenda:#ff0ff;
+}
+.text-mezenda{
+    color: var(--app-mezenda);
+}
+.bg-mezneda{
+    background-color: var(--app-mezenda);
+}
