@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10px;
+    padding: 2% 20%;
     background-color: #f6f6f6;
     box-shadow: 5px 2px 30px 5px rgba(0,0,0,0.2);
 }
@@ -37,9 +37,11 @@ nav{
     grid-template-columns: 9fr 3fr;
     align-items: center;
     height: 95vh;
+    padding: 0% 20%;
 }
 .container{
  padding: 20px;
+ background-color:rgb(229, 237, 241) ;
 }
 .intro{
     font-weight: 400;
@@ -67,4 +69,25 @@ nav{
     cursor: pointer;
     transform: scale(1.1);
     transition: 300ms ease-in-out;
+}
+.about{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    align-items: center;
+}
+.about-img img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+.about-content h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2f485e;
+    margin-bottom: 15px;
+}
+.about-content p{
+    font-size: 28px;
+    border-left: 2px solid #a4b6ac;
+    padding-left: 15px;
 }
